@@ -60,3 +60,13 @@ function sortearAmigo() {
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>🎉 El amigo secreto sorteado es: <strong>${amigoSorteado}</strong></li>`;
 }
+
+//FUNCION ADICIONAL
+//Agregamos event listener para detectar la tecla Enter
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById("amigo").addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            agregarAmigo();
+        }
+    });
+});
