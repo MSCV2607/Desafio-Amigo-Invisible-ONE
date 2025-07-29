@@ -1,1 +1,4 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+
+//Array que almacena el nombre de los amigos secretos
+let nombresAmigos = [];
+
