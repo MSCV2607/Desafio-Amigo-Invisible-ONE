@@ -27,3 +27,18 @@ function agregarAmigo() {
     //Actualizamos la lista de amigos secretos
     mostrarAmigos();
 }
+
+function mostrarAmigos() {
+    //Obtenemos el elemento donde mostraremos los amigos
+    let listaAmigos = document.getElementById("listaAmigos");
+
+    //Limpiamos la lista actual
+    listaAmigos.innerHTML = "";
+
+    //Recorremos el array y mostramos cada amigo
+    nombresAmigos.forEach((amigo, index) => {
+        let li = document.createElement("li");
+        li.textContent = amigo;
+        listaAmigos.appendChild(li);
+    });
+}
