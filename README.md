@@ -21,5 +21,6 @@ Al hacer clic en el botón "Sortear Amigo", la aplicación selecciona aleatoriam
 ### Agregar el nombre de tu amigo, apretar añadir o enter
 ![nombre](./fotosProyecto/PonerAmigos.png)
 ### Tus amigos apareceran en una lista
-
+![lista](./fotosProyecto/Lista.png)
 ### Al apretar "Sortear amigo" aparecera tu amigo invisible
+![amigoSecreto](./fotosProyecto/AmigoSecreto.png)
